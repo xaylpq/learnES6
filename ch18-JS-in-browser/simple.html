@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Пpocтaя HTML-cтpaницa </title>
+    <style>
+        .callout {
+            border: solid lpx #ff0;
+            margin: 2рх 4рх;
+            padding: 2рх брх;
+        }
+        .code {
+            background : #ccc;
+            margin: 1px 2рх;
+            padding: 1px 4рх;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <hl> Простая НТМL-страница</hl>
+    </header>
+    <div id= "content">
+        <p>Это <i>простой</i> НТМL-файл . </p>
+        <div class="callout">
+            <p>Он позволяет творить удивительные вещи !</p>
+        </div>
+        <p>Идентификаторы элементов ( например, <span class="code" >#content</span> ) являются уникальными ( они должны исполь зоваться на странице
+        только ОДИН раз). </p>
+        <p>Имена классов (например, <span class="code" >.callout</span>) могут использоваться во многих элементах. </p>
+        <div id= "callout2" class = "callout fancy ">
+            <p> Одному НТМL-элементу можно присвоить несколько классов. </p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
